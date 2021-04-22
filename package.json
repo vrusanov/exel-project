@@ -1,0 +1,28 @@
+{
+  "name": "exel-cours",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Exel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrusanov/exel-project.git"
+  },
+  "keywords": [
+    "js",
+    "jsvascript",
+    "exel"
+  ],
+  "author": "Vasyl Rusanov <vasiliy.rusanov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrusanov/exel-project/issues"
+  },
+  "homepage": "https://github.com/vrusanov/exel-project#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  }
+}
