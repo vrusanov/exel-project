@@ -1,0 +1,52 @@
+{
+  "name": "exel-cours",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Exel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrusanov/exel-project.git"
+  },
+  "keywords": [
+    "js",
+    "jsvascript",
+    "exel"
+  ],
+  "author": "Vasyl Rusanov <vasiliy.rusanov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrusanov/exel-project/issues"
+  },
+  "homepage": "https://github.com/vrusanov/exel-project#readme",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.2",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "cross": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "1.0.1",
+    "env": "0.0.2",
+    "eslint": "^7.26.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}
