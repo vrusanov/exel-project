@@ -5,19 +5,19 @@ export class Exel {
     this.$el = $(selector);
     this.components = options.components || [];
   }
+
   getRoot() {
     const $root = $.create('div', 'exel');
 
     this.components = this.components.map((Component) => {
-      // const el = document.createElement('div');
-      // el.classList.add(Component.className);
-      // console.log(el);
       const el = $.create('div', Component.className);
-      const componets = new Component(el);
-      el.html(componets.toHTML());
+      const componet = new Component(el);
+      // DEBUG
+      // if (componet.name)
+      //   window['c' + componet.name] = component
+      el.html(componet.toHTML());
       $root.append(el);
-      // console.log(componets);
-      return componets;
+      return componet;
     });
     return $root;
   }
